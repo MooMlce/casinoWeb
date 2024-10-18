@@ -1,11 +1,11 @@
 const TG_WEBAPP = window.Telegram.WebApp;
 
-console.log("Hello World!", TG_WEBAPP.initDataUnsafe);
+console.log("Hello World!", TG_WEBAPP);
 
 setTimeout(() => {
-    TG_WEBAPP.sendData(
-        JSON.stringify({
-            test: "ffffff"
-        })
-    );
+    // TG_WEBAPP.sendData(
+    //     JSON.stringify({
+    //         test: "ffffff"
+    //     })
+    // );
 }, 1000)
