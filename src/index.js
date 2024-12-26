@@ -3,7 +3,7 @@ const TG_WEBAPP = window.Telegram.WebApp;
 console.log("Hello World!", TG_WEBAPP);
 
 const FFF = document.getElementsByTagName("body")[0].appendChild(document.createElement("div"));
-FFF.innerHTML = window.location.origin;
+FFF.innerHTML = window.location.href;
 
 setTimeout(() => {
     // TG_WEBAPP.sendData(
